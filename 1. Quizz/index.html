@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>Quizz Culture générale !</h1>
+
+    <div class="container-global">
+        <form class="quizz">
+            <div class="question-block">
+                <h4>Qui est l'empereur de France le 2 décembre 1804 ?</h4>
+                <div>
+                    <input type="radio" name="q1" id="q1r1" value="a" checked>
+                    <label for="q1r1"> Clovis </label>               
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="q1r2" value="b">
+                    <label for="q1r2"> Abraham Lincoln </label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="q1r3" value="c">
+                    <label for="q1r3"> Napoléon Bonaparte </label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Quelle est la date d'indépendance des États-Unis ?</h4>
+                <div>
+                    <input type="radio" name="q2" id="q2r1" value="a" checked>
+                    <label for="q2r1">4 juillet 1776 </label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="q2r2" value="b">
+                    <label for="q2r2">18 avril 1856 </label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="q2r3" value="c">
+                    <label for="q2r3">30 juin 1925 </label>                    
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>La chute de l'empire Romain se situe en ?</h4>
+                <div>
+                    <input type="radio" name="q3" id="q3r1" value="a" checked>
+                    <label for="q3r1">  15 ap. J.-C.  </label>                    
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="q3r2" value="b">
+                    <label for="q3r2"> 395 ap. J.-C. </label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="q3r3" value="c">
+                    <label for="q3r3"> -740 av. J.-C. </label>
+                </div>                
+            </div>
+            <div class="question-block">
+                <h4>Quelle est la capitale de la Slovénie ?</h4>
+                <div>
+                    <input type="radio" name="q4" id="q4r1" value="a" checked>
+                    <label for="q4r1"> Ljubljana </label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="q4r2" value="b">
+                    <label for="q4r2"> Belgrade </label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="q4r3" value="c">
+                    <label for="q4r3"> Bratislava </label>
+                </div>                
+            </div>
+            <div class="question-block">
+                <h4>Combien d'habitants compte l'Irlande en 2020 ?.</h4>
+                <div>
+                    <input type="radio" name="q5" id="q1r1" value="a" checked>
+                    <label for="q1r1"> 1,365 Million </label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" id="q1r2" value="b">
+                    <label for="q1r2"> 21 Millions </label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" id="q1r3" value="c">
+                    <label for="q1r3"> 4,9 Millions </label>
+                </div>
+            </div>
+
+            <button type="submit">Validez vos choix !</button>
+        </form>
+
+        <div class="resultats">
+            <h2>Cliquez sur valider pour voir les résultats.</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
